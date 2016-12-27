@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:34:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "123-45-678"
+    },
+ 
+  "accessories": [],
+     
+    "platforms": [
+      {
+    "platform": "HomeAssistant",
+    "name": "HomeAssistant",
+    "host": "http://192.168.11.249:8123",
+    "password": "",
+    "supported_types": ["fan","garage_door", "input_boolean", "light", "lock", "media_player", "rollershutter", "scene",  "sensor","switch"]
+  }
+  ]
+}
