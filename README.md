@@ -12,6 +12,10 @@ broker.lua ：用于mqtt订阅和发送消息，/为服务器端命令（on，of
 ，/stat为sonoff响应结果（on，off字符串）,/sensor为传感器定时反馈的值（json格式）
 
 
+安装homeassistant和homebridge
+注意：homebridge配置文件在var目录中
+
+
 sudo nano /etc/apt/sources.list
 
 deb http://mirrors.aliyun.com/raspbian/raspbian/ jessie main non-free contrib
