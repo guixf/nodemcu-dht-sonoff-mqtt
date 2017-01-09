@@ -81,8 +81,8 @@ if __name__ == "__main__":
     SERVER = "127.0.0.1"
     CLIENT_ID = "Raspi-1"
     TOPIC = "office/sensor1"
-    username='guixf'
-    password='guixf72'
+    username=''
+    password=''
     state = 0
     interval = 30
 
